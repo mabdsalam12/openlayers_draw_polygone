@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Draw Polygon</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v9.1.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v9.1.0/ol.css">
+    <style>
+      .map {
+        width: 100%;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+  <div id="map" class="map"></div>
+  <script type="module" src="draw_polygon.js"></script>
+  <textarea id="coordinate" cols="50" rows="20"></textarea>
+  <textarea id="coordinate_to_lat_long" cols="50" rows="20"></textarea>
+</body>
+
+</html>
